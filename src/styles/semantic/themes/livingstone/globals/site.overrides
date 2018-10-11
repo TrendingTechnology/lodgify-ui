@@ -422,3 +422,21 @@ blockquote.ui.quote .row {
     }
   }
 }
+
+/*----------------------
+     Only (Device)
+-----------------------*/
+
+/* Mobile Only Hide */
+@media only screen and (max-width: @tabletBreakpoint) {
+  .mobile-hidden {
+    display: none !important;
+  }
+}
+
+/* Computer Only Hide */
+@media only screen and (min-width: @smallestComputerBreakpoint) {
+  .computer-hidden {
+    display: none !important;
+  }
+}
