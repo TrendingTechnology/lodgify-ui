@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pictures /> should render the correct structure 1`] = `
+<Grid
+  areColumnsCentered={false}
+  columns={3}
+>
+  <GridColumn
+    verticalAlignContent="top"
+    width={12}
+  >
+    <Heading
+      isColorInverted={false}
+      size="medium"
+      textAlign={null}
+    >
+      Property pictures
+    </Heading>
+  </GridColumn>
+  <GridRow
+    horizontalAlignContent="left"
+  >
+    <GridColumn
+      key="Entrance0"
+      verticalAlignContent="top"
+      width={null}
+    >
+      <ShowOnDesktop
+        parent={[Function]}
+        parentProps={
+          Object {
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "label": "Entrance",
+            "size": "huge",
+          }
+        }
+      />
+      <ShowOnMobile
+        parent={[Function]}
+        parentProps={
+          Object {
+            "hasRoundedCorners": true,
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "isSquare": true,
+            "label": "Entrance",
+            "size": "large",
+          }
+        }
+      />
+      <Divider
+        className=""
+        hasLine={false}
+        size="small"
+      />
+    </GridColumn>
+    <GridColumn
+      key="Kitchen1"
+      verticalAlignContent="top"
+      width={null}
+    >
+      <ShowOnDesktop
+        parent={[Function]}
+        parentProps={
+          Object {
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "label": "Kitchen",
+            "size": "huge",
+          }
+        }
+      />
+      <ShowOnMobile
+        parent={[Function]}
+        parentProps={
+          Object {
+            "hasRoundedCorners": true,
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "isSquare": true,
+            "label": "Kitchen",
+            "size": "large",
+          }
+        }
+      />
+      <Divider
+        className=""
+        hasLine={false}
+        size="small"
+      />
+    </GridColumn>
+    <GridColumn
+      key="Living room2"
+      verticalAlignContent="top"
+      width={null}
+    >
+      <ShowOnDesktop
+        parent={[Function]}
+        parentProps={
+          Object {
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "label": "Living room",
+            "size": "huge",
+          }
+        }
+      />
+      <ShowOnMobile
+        parent={[Function]}
+        parentProps={
+          Object {
+            "hasRoundedCorners": true,
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "isSquare": true,
+            "label": "Living room",
+            "size": "large",
+          }
+        }
+      />
+      <Divider
+        className=""
+        hasLine={false}
+        size="small"
+      />
+    </GridColumn>
+    <GridColumn
+      key="Studio3"
+      verticalAlignContent="top"
+      width={null}
+    >
+      <ShowOnDesktop
+        parent={[Function]}
+        parentProps={
+          Object {
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "label": "Studio",
+            "size": "huge",
+          }
+        }
+      />
+      <ShowOnMobile
+        parent={[Function]}
+        parentProps={
+          Object {
+            "hasRoundedCorners": true,
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "isSquare": true,
+            "label": "Studio",
+            "size": "large",
+          }
+        }
+      />
+      <Divider
+        className=""
+        hasLine={false}
+        size="small"
+      />
+    </GridColumn>
+    <GridColumn
+      key="Garden room4"
+      verticalAlignContent="top"
+      width={null}
+    >
+      <ShowOnDesktop
+        parent={[Function]}
+        parentProps={
+          Object {
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "label": "Garden room",
+            "size": "huge",
+          }
+        }
+      />
+      <ShowOnMobile
+        parent={[Function]}
+        parentProps={
+          Object {
+            "hasRoundedCorners": true,
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "isSquare": true,
+            "label": "Garden room",
+            "size": "large",
+          }
+        }
+      />
+      <Divider
+        className=""
+        hasLine={false}
+        size="small"
+      />
+    </GridColumn>
+  </GridRow>
+  <GridColumn
+    verticalAlignContent="top"
+    width={12}
+  >
+    <Gallery
+      heading={null}
+      images={
+        Array [
+          Object {
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "label": "Entrance",
+          },
+          Object {
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "label": "Kitchen",
+          },
+          Object {
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "label": "Living room",
+          },
+          Object {
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "label": "Studio",
+          },
+          Object {
+            "imageUrl": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg?w=1024&mode=max",
+            "label": "Garden room",
+          },
+        ]
+      }
+      trigger={
+        <Link
+          href={null}
+          isPositionedRight={false}
+          onClick={[Function]}
+          willOpenInNewTab={false}
+        >
+          Explore all pictures
+        </Link>
+      }
+    />
+  </GridColumn>
+</Grid>
+`;
