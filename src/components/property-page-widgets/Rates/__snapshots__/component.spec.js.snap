@@ -1,0 +1,1399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rates /> by default should have the right structure 1`] = `
+<Fragment>
+  <Grid
+    areColumnsCentered={false}
+    padded={true}
+  >
+    <ShowOnMobile
+      parent="div"
+      parentProps={Object {}}
+    >
+      <Dropdown
+        error={false}
+        icon={null}
+        isDisabled={false}
+        isValid={false}
+        label=""
+        name=""
+        onBlur={[Function]}
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "text": "EUR €",
+              "value": "eur",
+            },
+            Object {
+              "text": "GBP £",
+              "value": "gbp",
+            },
+            Object {
+              "text": "USD $",
+              "value": "usd",
+            },
+          ]
+        }
+        willOpenAbove={false}
+      />
+      <Card
+        fluid={true}
+        key="Season 10"
+      >
+        <CardContent>
+          <Grid
+            areColumnsCentered={false}
+            padded={true}
+          >
+            <GridRow
+              horizontalAlignContent="left"
+            >
+              <GridColumn
+                verticalAlignContent="top"
+                width={12}
+              >
+                <div>
+                  <Paragraph
+                    size="medium"
+                    weight="heavy"
+                  >
+                    Season 1
+                  </Paragraph>
+                  <Paragraph
+                    size="medium"
+                    weight="light"
+                  >
+                    01/05/2018 - 01/08/2018
+                    <br />
+                    <Icon
+                      color={null}
+                      hasBorder={false}
+                      isCircular={false}
+                      isColorInverted={false}
+                      isDisabled={false}
+                      isLabelLeft={false}
+                      labelText={null}
+                      labelWeight={null}
+                      name="guests"
+                      path={null}
+                      size={null}
+                    />
+                    2
+                    <br />
+                    1€ / Price per extra per.
+                  </Paragraph>
+                </div>
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 140€0"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Mon-Thu
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                40€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 130€1"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Fri
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                30€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 140€2"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sat
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                40€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 140€3"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sun
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                40€
+              </GridColumn>
+            </GridRow>
+          </Grid>
+        </CardContent>
+      </Card>
+      <Card
+        fluid={true}
+        key="Season 21"
+      >
+        <CardContent>
+          <Grid
+            areColumnsCentered={false}
+            padded={true}
+          >
+            <GridRow
+              horizontalAlignContent="left"
+            >
+              <GridColumn
+                verticalAlignContent="top"
+                width={12}
+              >
+                <div>
+                  <Paragraph
+                    size="medium"
+                    weight="heavy"
+                  >
+                    Season 2
+                  </Paragraph>
+                  <Paragraph
+                    size="medium"
+                    weight="light"
+                  >
+                    01/02/2018 - 01/08/2018
+                    <br />
+                    <Icon
+                      color={null}
+                      hasBorder={false}
+                      isCircular={false}
+                      isColorInverted={false}
+                      isDisabled={false}
+                      isLabelLeft={false}
+                      labelText={null}
+                      labelWeight={null}
+                      name="guests"
+                      path={null}
+                      size={null}
+                    />
+                    3
+                    <br />
+                    2€ / Price per extra per.
+                  </Paragraph>
+                </div>
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 210€0"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Mon-Thu
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                10€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 220€1"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Fri
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                20€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 230€2"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sat
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                30€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 240€3"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sun
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                40€
+              </GridColumn>
+            </GridRow>
+          </Grid>
+        </CardContent>
+      </Card>
+      <Card
+        fluid={true}
+        key="Season 32"
+      >
+        <CardContent>
+          <Grid
+            areColumnsCentered={false}
+            padded={true}
+          >
+            <GridRow
+              horizontalAlignContent="left"
+            >
+              <GridColumn
+                verticalAlignContent="top"
+                width={12}
+              >
+                <div>
+                  <Paragraph
+                    size="medium"
+                    weight="heavy"
+                  >
+                    Season 3
+                  </Paragraph>
+                  <Paragraph
+                    size="medium"
+                    weight="light"
+                  >
+                    01/03/2018 - 01/08/2018
+                    <br />
+                    <Icon
+                      color={null}
+                      hasBorder={false}
+                      isCircular={false}
+                      isColorInverted={false}
+                      isDisabled={false}
+                      isLabelLeft={false}
+                      labelText={null}
+                      labelWeight={null}
+                      name="guests"
+                      path={null}
+                      size={null}
+                    />
+                    4
+                    <br />
+                    3€ / Price per extra per.
+                  </Paragraph>
+                </div>
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 340€0"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Mon-Thu
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                40€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 330€1"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Fri
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                30€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 320€2"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sat
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                20€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 310€3"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sun
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                10€
+              </GridColumn>
+            </GridRow>
+          </Grid>
+        </CardContent>
+      </Card>
+    </ShowOnMobile>
+  </Grid>
+  <ShowOnDesktop
+    parent="div"
+    parentProps={Object {}}
+  >
+    <Table
+      className=""
+      tableBody={
+        Array [
+          Array [
+            <div>
+              <Paragraph
+                size="medium"
+                weight="heavy"
+              >
+                Season 1
+              </Paragraph>
+              <Paragraph
+                size="medium"
+                weight="light"
+              >
+                01/05/2018 - 01/08/2018
+                <br />
+                <Icon
+                  color={null}
+                  hasBorder={false}
+                  isCircular={false}
+                  isColorInverted={false}
+                  isDisabled={false}
+                  isLabelLeft={false}
+                  labelText={null}
+                  labelWeight={null}
+                  name="guests"
+                  path={null}
+                  size={null}
+                />
+                2
+                <br />
+                1€ / Price per extra per.
+              </Paragraph>
+            </div>,
+            "40€",
+            "30€",
+            "40€",
+            "40€",
+          ],
+          Array [
+            <div>
+              <Paragraph
+                size="medium"
+                weight="heavy"
+              >
+                Season 2
+              </Paragraph>
+              <Paragraph
+                size="medium"
+                weight="light"
+              >
+                01/02/2018 - 01/08/2018
+                <br />
+                <Icon
+                  color={null}
+                  hasBorder={false}
+                  isCircular={false}
+                  isColorInverted={false}
+                  isDisabled={false}
+                  isLabelLeft={false}
+                  labelText={null}
+                  labelWeight={null}
+                  name="guests"
+                  path={null}
+                  size={null}
+                />
+                3
+                <br />
+                2€ / Price per extra per.
+              </Paragraph>
+            </div>,
+            "10€",
+            "20€",
+            "30€",
+            "40€",
+          ],
+          Array [
+            <div>
+              <Paragraph
+                size="medium"
+                weight="heavy"
+              >
+                Season 3
+              </Paragraph>
+              <Paragraph
+                size="medium"
+                weight="light"
+              >
+                01/03/2018 - 01/08/2018
+                <br />
+                <Icon
+                  color={null}
+                  hasBorder={false}
+                  isCircular={false}
+                  isColorInverted={false}
+                  isDisabled={false}
+                  isLabelLeft={false}
+                  labelText={null}
+                  labelWeight={null}
+                  name="guests"
+                  path={null}
+                  size={null}
+                />
+                4
+                <br />
+                3€ / Price per extra per.
+              </Paragraph>
+            </div>,
+            "40€",
+            "30€",
+            "20€",
+            "10€",
+          ],
+        ]
+      }
+      tableHeadings={
+        Array [
+          <Dropdown
+            error={false}
+            icon={null}
+            isDisabled={false}
+            isValid={false}
+            label=""
+            name=""
+            onBlur={[Function]}
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "text": "EUR €",
+                  "value": "eur",
+                },
+                Object {
+                  "text": "GBP £",
+                  "value": "gbp",
+                },
+                Object {
+                  "text": "USD $",
+                  "value": "usd",
+                },
+              ]
+            }
+            willOpenAbove={false}
+          />,
+          "Mon-Thu",
+          "Fri",
+          "Sat",
+          "Sun",
+        ]
+      }
+      tableId=""
+    />
+  </ShowOnDesktop>
+</Fragment>
+`;
+
+exports[`<Rates /> if \`props.roomTypes\` is passed should have the right structure 1`] = `
+<Fragment>
+  <Grid
+    areColumnsCentered={false}
+    padded={true}
+  >
+    <GridRow
+      horizontalAlignContent="left"
+      verticalAlign="middle"
+    >
+      <GridColumn
+        computer={4}
+        mobile={12}
+        verticalAlignContent="top"
+        width={null}
+      >
+        <Paragraph
+          size="medium"
+          weight="heavy"
+        >
+          View Rate Information for: 
+        </Paragraph>
+      </GridColumn>
+      <GridColumn
+        computer={4}
+        mobile={12}
+        verticalAlignContent="top"
+        width={null}
+      >
+        <Dropdown
+          error={false}
+          icon={null}
+          isDisabled={false}
+          isValid={false}
+          label=""
+          name=""
+          onBlur={[Function]}
+          onChange={[Function]}
+          options={
+            Array [
+              Object {
+                "image": "🎅",
+                "text": "🎅",
+                "value": "🎅",
+              },
+              Object {
+                "image": "💪",
+                "text": "💪",
+                "value": "💪",
+              },
+              Object {
+                "image": "👃",
+                "text": "👃",
+                "value": "👃",
+              },
+              Object {
+                "image": "🧖️",
+                "text": "🧖️",
+                "value": "🧖️",
+              },
+            ]
+          }
+          willOpenAbove={false}
+        />
+      </GridColumn>
+    </GridRow>
+    <ShowOnMobile
+      parent="div"
+      parentProps={Object {}}
+    >
+      <Dropdown
+        error={false}
+        icon={null}
+        isDisabled={false}
+        isValid={false}
+        label=""
+        name=""
+        onBlur={[Function]}
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "text": "EUR €",
+              "value": "eur",
+            },
+            Object {
+              "text": "GBP £",
+              "value": "gbp",
+            },
+            Object {
+              "text": "USD $",
+              "value": "usd",
+            },
+          ]
+        }
+        willOpenAbove={false}
+      />
+      <Card
+        fluid={true}
+        key="Season 10"
+      >
+        <CardContent>
+          <Grid
+            areColumnsCentered={false}
+            padded={true}
+          >
+            <GridRow
+              horizontalAlignContent="left"
+            >
+              <GridColumn
+                verticalAlignContent="top"
+                width={12}
+              >
+                <div>
+                  <Paragraph
+                    size="medium"
+                    weight="heavy"
+                  >
+                    Season 1
+                  </Paragraph>
+                  <Paragraph
+                    size="medium"
+                    weight="light"
+                  >
+                    01/05/2018 - 01/08/2018
+                    <br />
+                    <Icon
+                      color={null}
+                      hasBorder={false}
+                      isCircular={false}
+                      isColorInverted={false}
+                      isDisabled={false}
+                      isLabelLeft={false}
+                      labelText={null}
+                      labelWeight={null}
+                      name="guests"
+                      path={null}
+                      size={null}
+                    />
+                    2
+                    <br />
+                    1€ / Price per extra per.
+                  </Paragraph>
+                </div>
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 140€0"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Mon-Thu
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                40€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 130€1"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Fri
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                30€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 140€2"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sat
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                40€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 140€3"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sun
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                40€
+              </GridColumn>
+            </GridRow>
+          </Grid>
+        </CardContent>
+      </Card>
+      <Card
+        fluid={true}
+        key="Season 21"
+      >
+        <CardContent>
+          <Grid
+            areColumnsCentered={false}
+            padded={true}
+          >
+            <GridRow
+              horizontalAlignContent="left"
+            >
+              <GridColumn
+                verticalAlignContent="top"
+                width={12}
+              >
+                <div>
+                  <Paragraph
+                    size="medium"
+                    weight="heavy"
+                  >
+                    Season 2
+                  </Paragraph>
+                  <Paragraph
+                    size="medium"
+                    weight="light"
+                  >
+                    01/02/2018 - 01/08/2018
+                    <br />
+                    <Icon
+                      color={null}
+                      hasBorder={false}
+                      isCircular={false}
+                      isColorInverted={false}
+                      isDisabled={false}
+                      isLabelLeft={false}
+                      labelText={null}
+                      labelWeight={null}
+                      name="guests"
+                      path={null}
+                      size={null}
+                    />
+                    3
+                    <br />
+                    2€ / Price per extra per.
+                  </Paragraph>
+                </div>
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 210€0"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Mon-Thu
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                10€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 220€1"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Fri
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                20€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 230€2"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sat
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                30€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 240€3"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sun
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                40€
+              </GridColumn>
+            </GridRow>
+          </Grid>
+        </CardContent>
+      </Card>
+      <Card
+        fluid={true}
+        key="Season 32"
+      >
+        <CardContent>
+          <Grid
+            areColumnsCentered={false}
+            padded={true}
+          >
+            <GridRow
+              horizontalAlignContent="left"
+            >
+              <GridColumn
+                verticalAlignContent="top"
+                width={12}
+              >
+                <div>
+                  <Paragraph
+                    size="medium"
+                    weight="heavy"
+                  >
+                    Season 3
+                  </Paragraph>
+                  <Paragraph
+                    size="medium"
+                    weight="light"
+                  >
+                    01/03/2018 - 01/08/2018
+                    <br />
+                    <Icon
+                      color={null}
+                      hasBorder={false}
+                      isCircular={false}
+                      isColorInverted={false}
+                      isDisabled={false}
+                      isLabelLeft={false}
+                      labelText={null}
+                      labelWeight={null}
+                      name="guests"
+                      path={null}
+                      size={null}
+                    />
+                    4
+                    <br />
+                    3€ / Price per extra per.
+                  </Paragraph>
+                </div>
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 340€0"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Mon-Thu
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                40€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 330€1"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Fri
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                30€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 320€2"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sat
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                20€
+              </GridColumn>
+            </GridRow>
+            <GridRow
+              columns={2}
+              horizontalAlignContent="left"
+              key="Season 310€3"
+            >
+              <GridColumn
+                floated="left"
+                verticalAlignContent="top"
+                width={null}
+              >
+                <Paragraph
+                  size="medium"
+                  weight="heavy"
+                >
+                  Sun
+                </Paragraph>
+              </GridColumn>
+              <GridColumn
+                floated="right"
+                textAlign="right"
+                verticalAlignContent="top"
+                width={null}
+              >
+                10€
+              </GridColumn>
+            </GridRow>
+          </Grid>
+        </CardContent>
+      </Card>
+    </ShowOnMobile>
+  </Grid>
+  <ShowOnDesktop
+    parent="div"
+    parentProps={Object {}}
+  >
+    <Table
+      className=""
+      tableBody={
+        Array [
+          Array [
+            <div>
+              <Paragraph
+                size="medium"
+                weight="heavy"
+              >
+                Season 1
+              </Paragraph>
+              <Paragraph
+                size="medium"
+                weight="light"
+              >
+                01/05/2018 - 01/08/2018
+                <br />
+                <Icon
+                  color={null}
+                  hasBorder={false}
+                  isCircular={false}
+                  isColorInverted={false}
+                  isDisabled={false}
+                  isLabelLeft={false}
+                  labelText={null}
+                  labelWeight={null}
+                  name="guests"
+                  path={null}
+                  size={null}
+                />
+                2
+                <br />
+                1€ / Price per extra per.
+              </Paragraph>
+            </div>,
+            "40€",
+            "30€",
+            "40€",
+            "40€",
+          ],
+          Array [
+            <div>
+              <Paragraph
+                size="medium"
+                weight="heavy"
+              >
+                Season 2
+              </Paragraph>
+              <Paragraph
+                size="medium"
+                weight="light"
+              >
+                01/02/2018 - 01/08/2018
+                <br />
+                <Icon
+                  color={null}
+                  hasBorder={false}
+                  isCircular={false}
+                  isColorInverted={false}
+                  isDisabled={false}
+                  isLabelLeft={false}
+                  labelText={null}
+                  labelWeight={null}
+                  name="guests"
+                  path={null}
+                  size={null}
+                />
+                3
+                <br />
+                2€ / Price per extra per.
+              </Paragraph>
+            </div>,
+            "10€",
+            "20€",
+            "30€",
+            "40€",
+          ],
+          Array [
+            <div>
+              <Paragraph
+                size="medium"
+                weight="heavy"
+              >
+                Season 3
+              </Paragraph>
+              <Paragraph
+                size="medium"
+                weight="light"
+              >
+                01/03/2018 - 01/08/2018
+                <br />
+                <Icon
+                  color={null}
+                  hasBorder={false}
+                  isCircular={false}
+                  isColorInverted={false}
+                  isDisabled={false}
+                  isLabelLeft={false}
+                  labelText={null}
+                  labelWeight={null}
+                  name="guests"
+                  path={null}
+                  size={null}
+                />
+                4
+                <br />
+                3€ / Price per extra per.
+              </Paragraph>
+            </div>,
+            "40€",
+            "30€",
+            "20€",
+            "10€",
+          ],
+        ]
+      }
+      tableHeadings={
+        Array [
+          <Dropdown
+            error={false}
+            icon={null}
+            isDisabled={false}
+            isValid={false}
+            label=""
+            name=""
+            onBlur={[Function]}
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "text": "EUR €",
+                  "value": "eur",
+                },
+                Object {
+                  "text": "GBP £",
+                  "value": "gbp",
+                },
+                Object {
+                  "text": "USD $",
+                  "value": "usd",
+                },
+              ]
+            }
+            willOpenAbove={false}
+          />,
+          "Mon-Thu",
+          "Fri",
+          "Sat",
+          "Sun",
+        ]
+      }
+      tableId=""
+    />
+  </ShowOnDesktop>
+</Fragment>
+`;
