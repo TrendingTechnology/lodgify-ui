@@ -1,0 +1,858 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoomType /> by default should render the correct structure 1`] = `
+<Card
+  fluid={true}
+>
+  <Grid
+    areColumnsCentered={false}
+  >
+    <GridRow
+      horizontalAlignContent="left"
+    >
+      <GridColumn
+        computer={4}
+        mobile={12}
+        verticalAlignContent={null}
+        width={null}
+      >
+        <Slideshow
+          hasShadow={false}
+          headingText={null}
+          images={
+            Array [
+              Object {
+                "alternativeText": "Two cats",
+                "title": "Two cats",
+                "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+              },
+              Object {
+                "alternativeText": "Two more cats",
+                "title": "Two more cats",
+                "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+              },
+              Object {
+                "alternativeText": "Much cats",
+                "title": "Much cats",
+                "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+              },
+            ]
+          }
+          isRounded={false}
+          isShowingBulletNavigation={false}
+          isStretched={true}
+        />
+      </GridColumn>
+      <GridColumn
+        computer={8}
+        mobile={12}
+        verticalAlignContent="top"
+        width={null}
+      >
+        <Grid
+          areColumnsCentered={false}
+          padded={true}
+        >
+          <GridColumn
+            computer={12}
+            floated="left"
+            mobile={10}
+            verticalAlignContent="top"
+            width={null}
+          >
+            <Heading
+              isColorInverted={false}
+              size="medium"
+              textAlign={null}
+            >
+              The Cat House
+            </Heading>
+          </GridColumn>
+          <GridColumn
+            only="mobile"
+            textAlign="right"
+            verticalAlignContent="middle"
+            width={2}
+          >
+            <Modal
+              isFullscreen={false}
+              size="tiny"
+              trigger={
+                <Icon
+                  color="yellow"
+                  hasBorder={false}
+                  isCircular={true}
+                  isColorInverted={true}
+                  isDisabled={false}
+                  isLabelLeft={false}
+                  labelText={null}
+                  labelWeight={null}
+                  name="info"
+                  path={null}
+                  size="small"
+                />
+              }
+            >
+              <ModalContent>
+                <Heading
+                  isColorInverted={false}
+                  size="medium"
+                  textAlign={null}
+                >
+                  The Cat House
+                </Heading>
+                <Rating
+                  iconSize="small"
+                  isShowingNumeral={true}
+                  ratingNumber={4}
+                />
+                <Divider
+                  className=""
+                  hasLine={false}
+                  size="small"
+                />
+                <Slideshow
+                  additionalClass="no-shadow"
+                  hasShadow={true}
+                  headingText={null}
+                  images={
+                    Array [
+                      Object {
+                        "alternativeText": "Two cats",
+                        "title": "Two cats",
+                        "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                      },
+                      Object {
+                        "alternativeText": "Two more cats",
+                        "title": "Two more cats",
+                        "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                      },
+                      Object {
+                        "alternativeText": "Much cats",
+                        "title": "Much cats",
+                        "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                      },
+                    ]
+                  }
+                  isRounded={true}
+                  isShowingBulletNavigation={true}
+                  isStretched={false}
+                />
+                <Paragraph
+                  size="medium"
+                  weight={null}
+                >
+                  yayayay
+                </Paragraph>
+                <List
+                  horizontal={true}
+                >
+                  <ListItem
+                    key="01 Bedroomfeature"
+                  >
+                    <Paragraph
+                      size="medium"
+                      weight="heavy"
+                    >
+                      1 Bedroom
+                    </Paragraph>
+                  </ListItem>
+                  <ListItem
+                    key="11 Dining-Roomfeature"
+                  >
+                    <Paragraph
+                      size="medium"
+                      weight="heavy"
+                    >
+                      1 Dining-Room
+                    </Paragraph>
+                  </ListItem>
+                </List>
+                <Divider
+                  className=""
+                  hasLine={true}
+                  size="medium"
+                />
+                <Amenities
+                  amenities={
+                    Array [
+                      Object {
+                        "iconName": "leaf",
+                        "items": Array [
+                          "Toaster",
+                          "Microwave",
+                          "Coffee Machine",
+                        ],
+                        "name": "Cooking",
+                      },
+                      Object {
+                        "iconName": "paw",
+                        "items": Array [
+                          "Bidet",
+                          "Hair Dryer",
+                          "Iron & Board",
+                        ],
+                        "name": "Bathroom & Laundry",
+                      },
+                    ]
+                  }
+                  hasExtraItemsInModal={false}
+                  headingText="Room Amenities"
+                  isStacked={false}
+                  modalTriggerText="View more"
+                />
+                <Grid
+                  areColumnsCentered={false}
+                >
+                  <GridColumn
+                    verticalAlignContent="bottom"
+                    width={12}
+                  >
+                    <Paragraph
+                      size="medium"
+                      weight={null}
+                    >
+                      from
+                      <strong>
+                         $280 
+                      </strong>
+                      /night
+                    </Paragraph>
+                  </GridColumn>
+                </Grid>
+              </ModalContent>
+            </Modal>
+          </GridColumn>
+          <GridColumn
+            as={[Function]}
+            className="only-horizontal-padding"
+            floated="left"
+            horizontal={true}
+            verticalAlignContent="top"
+            width={null}
+          >
+            <ListItem
+              key="0"
+            >
+              <Icon
+                color={null}
+                hasBorder={false}
+                isCircular={false}
+                isColorInverted={false}
+                isDisabled={false}
+                isLabelLeft={false}
+                labelText="1 Bedroom"
+                labelWeight={null}
+                name="double bed"
+                path={null}
+                size="small"
+              />
+            </ListItem>
+          </GridColumn>
+          <GridRow
+            horizontalAlignContent="left"
+          >
+            <GridColumn
+              only="tablet computer"
+              verticalAlignContent="bottom"
+              width={4}
+            >
+              <Modal
+                isFullscreen={false}
+                size="small"
+                trigger={
+                  <Link
+                    href={null}
+                    isPositionedRight={false}
+                    onClick={[Function]}
+                    willOpenInNewTab={false}
+                  >
+                    More Info
+                  </Link>
+                }
+              >
+                <ModalContent>
+                  <Heading
+                    isColorInverted={false}
+                    size="medium"
+                    textAlign={null}
+                  >
+                    The Cat House
+                  </Heading>
+                  <Rating
+                    iconSize="small"
+                    isShowingNumeral={true}
+                    ratingNumber={4}
+                  />
+                  <Divider
+                    className=""
+                    hasLine={false}
+                    size="small"
+                  />
+                  <Slideshow
+                    additionalClass="no-shadow"
+                    hasShadow={true}
+                    headingText={null}
+                    images={
+                      Array [
+                        Object {
+                          "alternativeText": "Two cats",
+                          "title": "Two cats",
+                          "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                        },
+                        Object {
+                          "alternativeText": "Two more cats",
+                          "title": "Two more cats",
+                          "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                        },
+                        Object {
+                          "alternativeText": "Much cats",
+                          "title": "Much cats",
+                          "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                        },
+                      ]
+                    }
+                    isRounded={true}
+                    isShowingBulletNavigation={true}
+                    isStretched={false}
+                  />
+                  <Paragraph
+                    size="medium"
+                    weight={null}
+                  >
+                    yayayay
+                  </Paragraph>
+                  <List
+                    horizontal={true}
+                  >
+                    <ListItem
+                      key="01 Bedroomfeature"
+                    >
+                      <Paragraph
+                        size="medium"
+                        weight="heavy"
+                      >
+                        1 Bedroom
+                      </Paragraph>
+                    </ListItem>
+                    <ListItem
+                      key="11 Dining-Roomfeature"
+                    >
+                      <Paragraph
+                        size="medium"
+                        weight="heavy"
+                      >
+                        1 Dining-Room
+                      </Paragraph>
+                    </ListItem>
+                  </List>
+                  <Divider
+                    className=""
+                    hasLine={true}
+                    size="medium"
+                  />
+                  <Amenities
+                    amenities={
+                      Array [
+                        Object {
+                          "iconName": "leaf",
+                          "items": Array [
+                            "Toaster",
+                            "Microwave",
+                            "Coffee Machine",
+                          ],
+                          "name": "Cooking",
+                        },
+                        Object {
+                          "iconName": "paw",
+                          "items": Array [
+                            "Bidet",
+                            "Hair Dryer",
+                            "Iron & Board",
+                          ],
+                          "name": "Bathroom & Laundry",
+                        },
+                      ]
+                    }
+                    hasExtraItemsInModal={false}
+                    headingText="Room Amenities"
+                    isStacked={false}
+                    modalTriggerText="View more"
+                  />
+                  <Grid
+                    areColumnsCentered={false}
+                  >
+                    <GridColumn
+                      verticalAlignContent="bottom"
+                      width={12}
+                    >
+                      <Paragraph
+                        size="medium"
+                        weight={null}
+                      >
+                        from
+                        <strong>
+                           $280 
+                        </strong>
+                        /night
+                      </Paragraph>
+                    </GridColumn>
+                  </Grid>
+                </ModalContent>
+              </Modal>
+            </GridColumn>
+            <GridColumn
+              textAlign="right"
+              verticalAlignContent="top"
+              width={8}
+            >
+              <CardDescription>
+                <span>
+                  from 
+                  <Heading
+                    isColorInverted={false}
+                    size="medium"
+                    textAlign={null}
+                  >
+                    $280
+                  </Heading>
+                  /night
+                </span>
+              </CardDescription>
+              <ShowOnMobile
+                parent={[Function]}
+                parentProps={Object {}}
+              />
+            </GridColumn>
+          </GridRow>
+        </Grid>
+      </GridColumn>
+    </GridRow>
+  </Grid>
+</Card>
+`;
+
+exports[`<RoomType /> if \`isUserOnMobile === true\` should render the correct structure 1`] = `
+<Card
+  fluid={true}
+>
+  <Grid
+    areColumnsCentered={false}
+  >
+    <GridRow
+      horizontalAlignContent="left"
+    >
+      <GridColumn
+        computer={4}
+        mobile={12}
+        verticalAlignContent={null}
+        width={null}
+      >
+        <Slideshow
+          hasShadow={false}
+          headingText={null}
+          images={
+            Array [
+              Object {
+                "alternativeText": "Two cats",
+                "title": "Two cats",
+                "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+              },
+              Object {
+                "alternativeText": "Two more cats",
+                "title": "Two more cats",
+                "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+              },
+              Object {
+                "alternativeText": "Much cats",
+                "title": "Much cats",
+                "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+              },
+            ]
+          }
+          isRounded={false}
+          isShowingBulletNavigation={false}
+          isStretched={true}
+        />
+      </GridColumn>
+      <GridColumn
+        computer={8}
+        mobile={12}
+        verticalAlignContent="top"
+        width={null}
+      >
+        <Grid
+          areColumnsCentered={false}
+          padded={true}
+        >
+          <GridColumn
+            computer={12}
+            floated="left"
+            mobile={10}
+            verticalAlignContent="top"
+            width={null}
+          >
+            <Heading
+              isColorInverted={false}
+              size="medium"
+              textAlign={null}
+            >
+              The Cat House
+            </Heading>
+          </GridColumn>
+          <GridColumn
+            only="mobile"
+            textAlign="right"
+            verticalAlignContent="middle"
+            width={2}
+          >
+            <Modal
+              isFullscreen={false}
+              size="tiny"
+              trigger={
+                <Icon
+                  color="yellow"
+                  hasBorder={false}
+                  isCircular={true}
+                  isColorInverted={true}
+                  isDisabled={false}
+                  isLabelLeft={false}
+                  labelText={null}
+                  labelWeight={null}
+                  name="info"
+                  path={null}
+                  size="small"
+                />
+              }
+            >
+              <ModalContent>
+                <Heading
+                  isColorInverted={false}
+                  size="medium"
+                  textAlign={null}
+                >
+                  The Cat House
+                </Heading>
+                <Rating
+                  iconSize="small"
+                  isShowingNumeral={true}
+                  ratingNumber={4}
+                />
+                <Divider
+                  className=""
+                  hasLine={false}
+                  size="small"
+                />
+                <Slideshow
+                  additionalClass="no-shadow"
+                  hasShadow={true}
+                  headingText={null}
+                  images={
+                    Array [
+                      Object {
+                        "alternativeText": "Two cats",
+                        "title": "Two cats",
+                        "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                      },
+                      Object {
+                        "alternativeText": "Two more cats",
+                        "title": "Two more cats",
+                        "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                      },
+                      Object {
+                        "alternativeText": "Much cats",
+                        "title": "Much cats",
+                        "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                      },
+                    ]
+                  }
+                  isRounded={true}
+                  isShowingBulletNavigation={true}
+                  isStretched={false}
+                />
+                <Paragraph
+                  size="medium"
+                  weight={null}
+                >
+                  yayayay
+                </Paragraph>
+                <List
+                  horizontal={true}
+                >
+                  <ListItem
+                    key="01 Bedroomfeature"
+                  >
+                    <Paragraph
+                      size="medium"
+                      weight="heavy"
+                    >
+                      1 Bedroom
+                    </Paragraph>
+                  </ListItem>
+                  <ListItem
+                    key="11 Dining-Roomfeature"
+                  >
+                    <Paragraph
+                      size="medium"
+                      weight="heavy"
+                    >
+                      1 Dining-Room
+                    </Paragraph>
+                  </ListItem>
+                </List>
+                <Divider
+                  className=""
+                  hasLine={true}
+                  size="medium"
+                />
+                <Amenities
+                  amenities={
+                    Array [
+                      Object {
+                        "iconName": "leaf",
+                        "items": Array [
+                          "Toaster",
+                          "Microwave",
+                          "Coffee Machine",
+                        ],
+                        "name": "Cooking",
+                      },
+                      Object {
+                        "iconName": "paw",
+                        "items": Array [
+                          "Bidet",
+                          "Hair Dryer",
+                          "Iron & Board",
+                        ],
+                        "name": "Bathroom & Laundry",
+                      },
+                    ]
+                  }
+                  hasExtraItemsInModal={false}
+                  headingText="Room Amenities"
+                  isStacked={true}
+                  modalTriggerText="View more"
+                />
+                <Grid
+                  areColumnsCentered={false}
+                >
+                  <GridColumn
+                    verticalAlignContent="bottom"
+                    width={12}
+                  >
+                    <Paragraph
+                      size="medium"
+                      weight={null}
+                    >
+                      from
+                      <strong>
+                         $280 
+                      </strong>
+                      /night
+                    </Paragraph>
+                  </GridColumn>
+                </Grid>
+              </ModalContent>
+            </Modal>
+          </GridColumn>
+          <GridColumn
+            as={[Function]}
+            className="only-horizontal-padding"
+            floated="left"
+            horizontal={true}
+            verticalAlignContent="top"
+            width={null}
+          >
+            <ListItem
+              key="0"
+            >
+              <Paragraph
+                size="medium"
+                weight={null}
+              >
+                1 Bedroom
+              </Paragraph>
+            </ListItem>
+          </GridColumn>
+          <GridRow
+            horizontalAlignContent="left"
+          >
+            <GridColumn
+              only="tablet computer"
+              verticalAlignContent="bottom"
+              width={4}
+            >
+              <Modal
+                isFullscreen={false}
+                size="small"
+                trigger={
+                  <Link
+                    href={null}
+                    isPositionedRight={false}
+                    onClick={[Function]}
+                    willOpenInNewTab={false}
+                  >
+                    More Info
+                  </Link>
+                }
+              >
+                <ModalContent>
+                  <Heading
+                    isColorInverted={false}
+                    size="medium"
+                    textAlign={null}
+                  >
+                    The Cat House
+                  </Heading>
+                  <Rating
+                    iconSize="small"
+                    isShowingNumeral={true}
+                    ratingNumber={4}
+                  />
+                  <Divider
+                    className=""
+                    hasLine={false}
+                    size="small"
+                  />
+                  <Slideshow
+                    additionalClass="no-shadow"
+                    hasShadow={true}
+                    headingText={null}
+                    images={
+                      Array [
+                        Object {
+                          "alternativeText": "Two cats",
+                          "title": "Two cats",
+                          "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                        },
+                        Object {
+                          "alternativeText": "Two more cats",
+                          "title": "Two more cats",
+                          "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                        },
+                        Object {
+                          "alternativeText": "Much cats",
+                          "title": "Much cats",
+                          "url": "https://li3.cdbcdn.com/oh/522a12d9-ab51-4635-94c1-42536f286e4d.jpg",
+                        },
+                      ]
+                    }
+                    isRounded={true}
+                    isShowingBulletNavigation={true}
+                    isStretched={false}
+                  />
+                  <Paragraph
+                    size="medium"
+                    weight={null}
+                  >
+                    yayayay
+                  </Paragraph>
+                  <List
+                    horizontal={true}
+                  >
+                    <ListItem
+                      key="01 Bedroomfeature"
+                    >
+                      <Paragraph
+                        size="medium"
+                        weight="heavy"
+                      >
+                        1 Bedroom
+                      </Paragraph>
+                    </ListItem>
+                    <ListItem
+                      key="11 Dining-Roomfeature"
+                    >
+                      <Paragraph
+                        size="medium"
+                        weight="heavy"
+                      >
+                        1 Dining-Room
+                      </Paragraph>
+                    </ListItem>
+                  </List>
+                  <Divider
+                    className=""
+                    hasLine={true}
+                    size="medium"
+                  />
+                  <Amenities
+                    amenities={
+                      Array [
+                        Object {
+                          "iconName": "leaf",
+                          "items": Array [
+                            "Toaster",
+                            "Microwave",
+                            "Coffee Machine",
+                          ],
+                          "name": "Cooking",
+                        },
+                        Object {
+                          "iconName": "paw",
+                          "items": Array [
+                            "Bidet",
+                            "Hair Dryer",
+                            "Iron & Board",
+                          ],
+                          "name": "Bathroom & Laundry",
+                        },
+                      ]
+                    }
+                    hasExtraItemsInModal={false}
+                    headingText="Room Amenities"
+                    isStacked={true}
+                    modalTriggerText="View more"
+                  />
+                  <Grid
+                    areColumnsCentered={false}
+                  >
+                    <GridColumn
+                      verticalAlignContent="bottom"
+                      width={12}
+                    >
+                      <Paragraph
+                        size="medium"
+                        weight={null}
+                      >
+                        from
+                        <strong>
+                           $280 
+                        </strong>
+                        /night
+                      </Paragraph>
+                    </GridColumn>
+                  </Grid>
+                </ModalContent>
+              </Modal>
+            </GridColumn>
+            <GridColumn
+              textAlign="left"
+              verticalAlignContent="top"
+              width={8}
+            >
+              <CardDescription>
+                <span>
+                  from 
+                  <Heading
+                    isColorInverted={false}
+                    size="medium"
+                    textAlign={null}
+                  >
+                    $280
+                  </Heading>
+                  /night
+                </span>
+              </CardDescription>
+              <ShowOnMobile
+                parent={[Function]}
+                parentProps={Object {}}
+              />
+            </GridColumn>
+          </GridRow>
+        </Grid>
+      </GridColumn>
+    </GridRow>
+  </Grid>
+</Card>
+`;
